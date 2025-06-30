@@ -19,12 +19,24 @@ This Python script helps developers and support engineers inspect and validate M
 
 ## Usage
 
-Update the TENANT_ID, CLIENT_ID, and CLIENT_SECRET in the script. Input any sharing URLs you would like to test. Then run:
+Update the TENANT_ID, CLIENT_ID, and CLIENT_SECRET in the script. Input any sharing URLs you would like to test. Example:
+```bash
+shared_urls = [
+    "https://yourdomain.sharepoint.com/:t:/s/ExampleSite/ExampleFile.txt",
+    "https://yourdomain.sharepoint.com/sites/yoursite/Lists/yourlistitem"
+]
 
+```
+
+Then run:
+
+```bash
+python testShares.py
+```
 
 Install dependencies:
 ```bash
 pip install requests msal```
+```
 
-asdf
 
