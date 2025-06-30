@@ -36,7 +36,7 @@ python testShares.py
 
 Install dependencies:
 ```bash
-pip install requests msal```
+pip install requests msal
 ```
 
 
