@@ -17,6 +17,14 @@ This Python script helps developers and support engineers inspect and validate M
 - `requests`
 - `msal`
 
+## Usage
+
+Update the TENANT_ID, CLIENT_ID, and CLIENT_SECRET in the script. Input any sharing URLs you would like to test. Then run:
+
+
 Install dependencies:
 ```bash
-pip install requests msal
+pip install requests msal```
+
+asdf
+
