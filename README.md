@@ -1,4 +1,4 @@
-# classify Graph API Share URLs
+# Classify Graph API Share URLs
 
 This Python script helps developers and support engineers inspect and validate Microsoft Graph sharing links.
 
