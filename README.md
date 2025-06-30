@@ -4,7 +4,7 @@ This Python script helps developers and support engineers inspect and validate M
 
 ## Features
 
-- Automatically acquires an access token using MSAL.
+- Automatically acquires an app-only access token using MSAL.
 - Encodes and decodes sharing URLs to and from Graph-compatible `shareId` format.
 - Classifies shared resources (e.g., document, list item) based on URL patterns.
 - Calls the appropriate Microsoft Graph API endpoint (`/driveItem` or `/listItem`) based on classification.
